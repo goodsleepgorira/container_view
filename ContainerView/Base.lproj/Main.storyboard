@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="-24.5" y="1634"/>
         </scene>
-        <!--View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="G4k-4l-XL9">
             <objects>
-                <viewController id="B87-fG-VhR" sceneMemberID="viewController">
+                <viewController id="B87-fG-VhR" customClass="TestViewController" customModule="ContainerView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ubR-KK-ciy"/>
                         <viewControllerLayoutGuide type="bottom" id="m81-Fv-4M7"/>
@@ -91,6 +91,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_night_sample.png" translatesAutoresizingMaskIntoConstraints="NO" id="bId-X7-02G">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBM-Yt-pRy">
+                                <rect key="frame" x="29" y="158" width="121" height="52"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="前の画面に戻る"/>
+                                <connections>
+                                    <action selector="backHome:" destination="B87-fG-VhR" eventType="touchUpInside" id="s81-qu-lgd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

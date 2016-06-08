@@ -15,6 +15,7 @@
 		885949351D07A98F000BF104 /* test_evening_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 885949321D07A98F000BF104 /* test_evening_sample.png */; };
 		885949361D07A98F000BF104 /* test_morning_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 885949331D07A98F000BF104 /* test_morning_sample.png */; };
 		885949371D07A98F000BF104 /* test_night_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 885949341D07A98F000BF104 /* test_night_sample.png */; };
+		8859493B1D07D01F000BF104 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8859493A1D07D01F000BF104 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		885949321D07A98F000BF104 /* test_evening_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_evening_sample.png; sourceTree = "<group>"; };
 		885949331D07A98F000BF104 /* test_morning_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_morning_sample.png; sourceTree = "<group>"; };
 		885949341D07A98F000BF104 /* test_night_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_night_sample.png; sourceTree = "<group>"; };
+		8859493A1D07D01F000BF104 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				885949201D07A4BC000BF104 /* AppDelegate.swift */,
 				885949221D07A4BC000BF104 /* ViewController.swift */,
 				885949241D07A4BC000BF104 /* Main.storyboard */,
+				8859493A1D07D01F000BF104 /* TestViewController.swift */,
 				885949321D07A98F000BF104 /* test_evening_sample.png */,
 				885949331D07A98F000BF104 /* test_morning_sample.png */,
 				885949341D07A98F000BF104 /* test_night_sample.png */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				885949231D07A4BC000BF104 /* ViewController.swift in Sources */,
+				8859493B1D07D01F000BF104 /* TestViewController.swift in Sources */,
 				885949211D07A4BC000BF104 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
